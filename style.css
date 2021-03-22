@@ -213,6 +213,7 @@ img{
 
 .post-container{
     display: flex;
+    margin-top: 10px;
 }
 
 .user-img-post{
@@ -244,10 +245,39 @@ img{
 }
 
 .post-details-author{
+    margin-bottom: 0px;
     font-size: 16px;
     font-weight: 700;
 }
 
 .post-detail-date-location{
+    margin-top: 0px;
     font-size: 13px;
 }
+
+/* Emoji */
+
+.react{
+    display: flex;
+    justify-content: space-around;
+}
+
+.separator{
+    align-self: center;
+}
+
+.separator p{
+    font-weight: bolder;
+    
+}
+
+.Comment p{
+   font-size: 20px;
+   
+}
+
+.Like p{
+    font-size: 20px;
+    
+}
+
